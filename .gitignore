@@ -2,3 +2,4 @@ data
 # Project exclude paths
 /venv/
 .idea
+.pytest_cache
