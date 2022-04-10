@@ -1,4 +1,4 @@
-##Mutual Fund India Visualization 
+## Mutual Fund India Visualization 
 [NAV](https://en.wikipedia.org/wiki/Net_asset_valueg) historical data is publicly available here https://www.amfiindia.com/
 
 ### Data Visualization target for this project
