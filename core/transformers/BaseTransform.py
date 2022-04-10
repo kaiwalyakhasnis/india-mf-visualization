@@ -4,5 +4,5 @@ from pandas import DataFrame
 
 class BaseTransform(object):
     @abstractmethod
-    def transform(self: DataFrame) -> DataFrame:
+    def transform(self, df: DataFrame) -> DataFrame:
         pass
