@@ -1,3 +1,5 @@
+[![Python application](https://github.com/kaiwalyakhasnis/india-mf-visualization/actions/workflows/python-app.yml/badge.svg)](https://github.com/kaiwalyakhasnis/india-mf-visualization/actions/workflows/python-app.yml)
+
 ## Mutual Fund India Visualization 
 [NAV](https://en.wikipedia.org/wiki/Net_asset_valueg) historical data is publicly available here https://www.amfiindia.com/
 
