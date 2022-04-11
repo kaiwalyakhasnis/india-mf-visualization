@@ -1,0 +1,2 @@
+class DatatypeMismatchException(Exception):
+    pass
