@@ -10,3 +10,7 @@ class Column(Enum):
     REPURCHASE_PRICE = "Repurchase Price"
     SALE_PRICE = "Sale Price"
     DATE = "Date"
+
+    @classmethod
+    def has_value(cls, value):
+        return value in cls._value2member_map_
