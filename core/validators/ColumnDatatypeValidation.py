@@ -6,7 +6,6 @@ from core.common.Exceptions import DatatypeMismatchException
 from core.validators.BaseValidator import BaseValidator
 
 
-@DeprecationWarning
 class ColumnDatatypeValidation(BaseValidator):
     def validate(self, df: DataFrame) -> bool:
         try:
