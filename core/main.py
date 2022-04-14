@@ -16,8 +16,12 @@ transformers = [
     NavNotnaTransformer()
 ]
 
+"""
+Extract --> Transform --> Load 
+"""
 
-def execute(files):
+
+def perform_etl(files):
     report_df = pd.DataFrame(data={})
 
     for file in files:
@@ -38,4 +42,4 @@ def execute(files):
 
 
 if __name__ == '__main__':
-    execute(os.listdir("../data"))
+    perform_etl(os.listdir("../data"))
